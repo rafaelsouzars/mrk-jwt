@@ -2,10 +2,12 @@
     "name": "rafsouza/mrk-jwt",
     "description": "Este componente oferece métodos para manipulação de JWT e JWK em arquivos .env",
     "type": "library",
-	"keywords": ["log","logging"],
+    "minimum-stability": "beta",
+    "version": "1.0",
+    "keywords": ["log","logging"],
     "homepage": "https://github.com/rafaelsouzars/mrk-jwt",
     "license": "MIT",
-	"another-vendor/package": "1.*",
+    "another-vendor/package": "1.*",
     "autoload": {
         "psr-4": {
             "Rafsouza\\MrkJwt\\": "src/"
@@ -15,7 +17,7 @@
         {
             "name": "rafaelsouzars",
             "email": "rafael21.santos@hotmail.com",
-			"homepage": "https://rafaelsouzars.github.io",
+	    "homepage": "https://rafaelsouzars.github.io",
             "role": "Developer"
         }
     ],
