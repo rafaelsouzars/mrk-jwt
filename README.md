@@ -2,10 +2,10 @@
 
 ![Static Badge](https://img.shields.io/badge/version-0.1-green) ![Static Badge](https://img.shields.io/badge/status-beta-yellow)
 
-*__Descrição__*: Este componente fornece métodos básicos para manipulação do JWT como: criação e validação do token.
+*__Descrição__*: Este componente PHP fornece métodos básicos para manipulação do JWT como: criação e validação do token.
 Além dessas funcionalidades o componente também manipula arquivos .env para armazenamento das JWK 'Json Web Key'.
 
-## Criar um JWT
+### Criar um JWT
 
 ```PHP
 
@@ -41,7 +41,7 @@ echo $jwt->createToken($token);
 
 ```
 
-## Validar um JWT
+### Validar um JWT
 
 ```PHP
 
