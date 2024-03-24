@@ -6,8 +6,7 @@
     "version": "1.0",
     "keywords": ["jwt","jwt-token",".env"],
     "homepage": "https://github.com/rafaelsouzars/mrk-jwt",
-    "license": "MIT",
-    "another-vendor/package": "1.*",
+    "license": "MIT",    
     "autoload": {
         "psr-4": {
             "Rafsouza\\MrkJwt\\": "src/"
@@ -22,6 +21,7 @@
         }
     ],
     "require": {
-		
+		"php": ">=7.4",
+        	"another-vendor/package": "1.*"
 	}
 }
