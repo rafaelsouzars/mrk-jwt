@@ -4,7 +4,7 @@
     "type": "library",
     "minimum-stability": "beta",
     "version": "1.0",
-    "keywords": ["jwt","jwt-token",".env",],
+    "keywords": ["jwt","jwt-token",".env"],
     "homepage": "https://github.com/rafaelsouzars/mrk-jwt",
     "license": "MIT",
     "another-vendor/package": "1.*",
