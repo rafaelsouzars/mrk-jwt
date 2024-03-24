@@ -8,6 +8,9 @@ Além dessas funcionalidades o componente também manipula arquivos .env para ar
 ### Criar um JWT
 
 ```PHP
+require '../vendor/autoload.php';
+
+use Rafsouza\MrkJwt\jwt;
 
 $jwt = new JWT();
 
@@ -25,6 +28,9 @@ echo $jwt->createToken($token);
 ou
 
 ```PHP
+require '../vendor/autoload.php';
+
+use Rafsouza\MrkJwt\jwt;
 
 $jwt = new JWT();
 
@@ -44,6 +50,9 @@ echo $jwt->createToken($token);
 ### Validar um JWT
 
 ```PHP
+require '../vendor/autoload.php';
+
+use Rafsouza\MrkJwt\jwt;
 
 $authorization = $_SERVER["HTTP_AUTHORIZATION"];
 
@@ -57,6 +66,9 @@ echo $jwt->validationToken($authorization);
 ou
 
 ```PHP
+require '../vendor/autoload.php';
+
+use Rafsouza\MrkJwt\jwt;
 
 $authorization = $_SERVER["HTTP_AUTHORIZATION"];
 
