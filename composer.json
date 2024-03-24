@@ -4,6 +4,7 @@
     "type": "library",
     "minimum-stability": "beta",
     "version": "1.0",
+	"another-vendor/package": "1.*",
     "keywords": ["jwt","jwt-token",".env"],
     "homepage": "https://github.com/rafaelsouzars/mrk-jwt",
     "license": "MIT",    
@@ -21,7 +22,6 @@
         }
     ],
     "require": {
-		"php": ">=7.4",
-        	"another-vendor/package": "1.*"
+		"php": ">=7.4"		
 	}
 }
