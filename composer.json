@@ -1,10 +1,10 @@
 {
     "name": "rafsouza/mrk-jwt",
-    "description": "Este componente oferece métodos para manipulação de JWT e JWK em arquivos .env",
+    "description": "Este componente PHP oferece métodos para manipulação de JWT e JWK em arquivos .env",
     "type": "library",
     "minimum-stability": "beta",
     "version": "1.0",
-    "keywords": ["log","logging"],
+    "keywords": ["jwt","jwt-token",".env",],
     "homepage": "https://github.com/rafaelsouzars/mrk-jwt",
     "license": "MIT",
     "another-vendor/package": "1.*",
