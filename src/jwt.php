@@ -17,7 +17,7 @@
 
 */
 
-namespace RafSouza\Src;
+namespace Rafsouza\MrkJwt;
 
 class JWT {	
 	
