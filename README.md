@@ -5,6 +5,10 @@
 *__Descrição__*: Este componente PHP fornece métodos básicos para manipulação do JWT como: criação e validação do token.
 Além dessas funcionalidades o componente também manipula arquivos .env para armazenamento das JWK 'Json Web Key'.
 
+### Instalação
+
+> composer require rafsouza/mrk-jwt
+
 ### Criar um JWT
 
 ```PHP
